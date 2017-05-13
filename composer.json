@@ -1,0 +1,19 @@
+{
+    "name": "veniva/lbs",
+    "type": "framework",
+    "description": "Logical base skeleton",
+    "keywords": [],
+    "homepage": "https://github.com/veniva/lbs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ventsislav Ivanov"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": { "LBS\\": "src" }
+    }
+}
