@@ -19,6 +19,6 @@
         "doctrine/orm": "~2.5"
     },
     "autoload": {
-        "psr-4": { "LBS\\": "src" }
+        "psr-4": { "Veniva\\Lbs\\": "src" }
     }
 }

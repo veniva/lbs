@@ -1,6 +1,6 @@
 <?php
 
-namespace LBS\Adapters\Interfaces\Http;
+namespace Veniva\Lbs\Adapters\Interfaces\Http;
 
 interface IRequest
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace LBS;
+namespace Veniva\Lbs;
 
-use LBS\Adapters\Interfaces\ITranslator;
+use Veniva\Lbs\Adapters\Interfaces\ITranslator;
 
 class BaseLogic
 {

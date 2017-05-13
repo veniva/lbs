@@ -1,6 +1,6 @@
 <?php
 
-namespace LBS\Adapters\Interfaces;
+namespace Veniva\Lbs\Adapters\Interfaces;
 
 interface ITranslator
 {

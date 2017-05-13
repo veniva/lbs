@@ -1,8 +1,8 @@
 <?php
 
-namespace LBS;
+namespace Veniva\Lbs;
 
-use LBS\Adapters\Interfaces\ITranslator;
+use Veniva\Lbs\Adapters\Interfaces\ITranslator;
 
 class Result
 {
@@ -11,7 +11,7 @@ class Result
 
     public $fields = [];
 
-    /** @var \LBS\Adapters\Interfaces\ITranslator */
+    /** @var \Veniva\Lbs\Adapters\Interfaces\ITranslator */
     protected $translator;
 
     public function __get($name)
@@ -62,7 +62,7 @@ class Result
     }
 
     /**
-     * @return ITranslator
+     * @return \Veniva\Lbs\Adapters\Interfaces\ITranslator
      */
     public function getTranslator()
     {
@@ -70,7 +70,7 @@ class Result
     }
 
     /**
-     * @param \LBS\Adapters\Interfaces\ITranslator $translator
+     * @param \Veniva\Lbs\Adapters\Interfaces\ITranslator $translator
      * @return Result
      */
     public function setTranslator(ITranslator $translator)

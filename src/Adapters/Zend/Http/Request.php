@@ -1,8 +1,8 @@
 <?php
 
-namespace LBS\Adapters\Zend\Http;
+namespace Veniva\Lbs\Adapters\Zend\Http;
 
-use LBS\Adapters\Interfaces\Http\IRequest;
+use Veniva\Lbs\Adapters\Interfaces\Http\IRequest;
 use Zend\Http\Request as ZendRequest;
 
 class Request implements IRequest

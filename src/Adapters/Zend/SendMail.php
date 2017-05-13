@@ -1,8 +1,8 @@
 <?php
 
-namespace LBS\Adapters\Zend;
+namespace Veniva\Lbs\Adapters\Zend;
 
-use LBS\Adapters\Interfaces\ISendMail;
+use Veniva\Lbs\Adapters\Interfaces\ISendMail;
 use Zend\Mail\Message;
 use Zend\Mail\Transport\Sendmail as Transport;
 use Zend\Mail\Header\GenericHeader;

@@ -1,6 +1,6 @@
 <?php
 
-namespace LBS\Adapters;
+namespace Veniva\Lbs\Adapters;
 
 use Zend\Paginator\Adapter\AdapterInterface;
 use Doctrine\ORM\Tools\Pagination\Paginator as DoctrinePaginator;

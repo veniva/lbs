@@ -1,6 +1,6 @@
 <?php
 
-namespace LBS\Interfaces;
+namespace Veniva\Lbs\Interfaces;
 
 interface StatusCodes
 {
