@@ -1,9 +1,8 @@
 <?php
 
-namespace Logic\Core\Adapters\Zend\Http;
+namespace LBS\Adapters\Zend\Http;
 
-
-use Logic\Core\Adapters\Interfaces\Http\IRequest;
+use LBS\Adapters\Interfaces\Http\IRequest;
 use Zend\Http\Request as ZendRequest;
 
 class Request implements IRequest

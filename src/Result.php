@@ -1,8 +1,8 @@
 <?php
 
-namespace Logic\Core;
+namespace LBS;
 
-use Logic\Core\Adapters\Interfaces\ITranslator;
+use LBS\Adapters\Interfaces\ITranslator;
 
 class Result
 {
@@ -11,7 +11,7 @@ class Result
 
     public $fields = [];
 
-    /** @var ITranslator */
+    /** @var \LBS\Adapters\Interfaces\ITranslator */
     protected $translator;
 
     public function __get($name)
@@ -70,7 +70,7 @@ class Result
     }
 
     /**
-     * @param ITranslator $translator
+     * @param \LBS\Adapters\Interfaces\ITranslator $translator
      * @return Result
      */
     public function setTranslator(ITranslator $translator)

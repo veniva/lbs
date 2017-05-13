@@ -1,7 +1,6 @@
 <?php
 
-namespace Logic\Core\Adapters\Interfaces;
-
+namespace LBS\Adapters\Interfaces;
 
 interface ITranslator
 {

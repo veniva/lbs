@@ -1,8 +1,8 @@
 <?php
 
-namespace Logic\Core\Adapters\Zend;
+namespace LBS\Adapters\Zend;
 
-use Logic\Core\Adapters\Interfaces\ISendMail;
+use LBS\Adapters\Interfaces\ISendMail;
 use Zend\Mail\Message;
 use Zend\Mail\Transport\Sendmail as Transport;
 use Zend\Mail\Header\GenericHeader;

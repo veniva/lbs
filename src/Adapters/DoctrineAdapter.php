@@ -1,6 +1,6 @@
 <?php
 
-namespace Logic\Core\Adapters;
+namespace LBS\Adapters;
 
 use Zend\Paginator\Adapter\AdapterInterface;
 use Doctrine\ORM\Tools\Pagination\Paginator as DoctrinePaginator;

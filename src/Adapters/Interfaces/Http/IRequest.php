@@ -1,7 +1,6 @@
 <?php
 
-namespace Logic\Core\Adapters\Interfaces\Http;
-
+namespace LBS\Adapters\Interfaces\Http;
 
 interface IRequest
 {

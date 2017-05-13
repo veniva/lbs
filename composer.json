@@ -11,7 +11,12 @@
         }
     ],
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "zendframework/zend-http": "^2.6",
+        "zendframework/zend-mail": "^2.7",
+        "zendframework/zend-i18n": "^2.7",
+        "zendframework/zend-paginator": "^2.7",
+        "doctrine/orm": "~2.5"
     },
     "autoload": {
         "psr-4": { "LBS\\": "src" }

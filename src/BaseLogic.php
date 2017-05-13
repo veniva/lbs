@@ -1,8 +1,8 @@
 <?php
 
-namespace Logic\Core;
+namespace LBS;
 
-use Logic\Core\Adapters\Interfaces\ITranslator;
+use LBS\Adapters\Interfaces\ITranslator;
 
 class BaseLogic
 {

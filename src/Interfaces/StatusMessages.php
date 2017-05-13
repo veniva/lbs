@@ -1,6 +1,6 @@
 <?php
 
-namespace Logic\Core\Interfaces;
+namespace LBS\Interfaces;
 
 interface StatusMessages
 {
